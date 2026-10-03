@@ -2,16 +2,18 @@
 
 Android 官方測試版下載專頁。遊玩需要網路，目前為測試版本。
 
+本版暫停戰鬥音樂以排查部分手機閃退，其他音樂與音效保留，並補強異常結束診斷。尚未確認閃退原因或修復結果。
+
 ## 下載
 
-**[下載 Android APK](https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.1/CDG.apk)**
+**[下載 Android APK](https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.2/CDG.apk)**
 
-[查看版本說明](https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.1) · [所有版本](https://github.com/JaxHao/CDG-Downloads/releases)
+[查看版本說明](https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.2) · [所有版本](https://github.com/JaxHao/CDG-Downloads/releases)
 
 | 項目 | 內容 |
 | --- | --- |
-| 目前版本 | 0.1.1（版本代碼 2） |
-| 發布日期 | 2026-10-03 |
+| 目前版本 | 0.1.2（版本代碼 3） |
+| 發布日期 | 2026-10-04 |
 | 檔案大小 | 約 165 MB |
 | 系統 | Android 7.0 以上 |
 | 架構 | ARM64／x86_64 |
@@ -39,7 +41,7 @@ APK 已正式簽章，連接 CDG 正式遊戲服務。Android 實機安裝與完
 
 SHA-256（CDG.apk）：
 ```text
-5c15fdcb43b72e3138c556beaef88544801f03405fdd49da12ff85b81f495ae2
+1a82d67799abe3b8e1b0ba7e6922a2c46d42072094bf1527aa45df1f1dbcf900
 ```
 
 本程式庫僅提供安裝檔與說明，遊戲原始碼不公開。
