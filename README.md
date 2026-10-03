@@ -4,13 +4,13 @@ Android 官方測試版下載專頁。遊玩需要網路，目前為測試版本
 
 ## 下載
 
-**[下載 Android APK](https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.0/CDG.apk)**
+**[下載 Android APK](https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.1/CDG.apk)**
 
-[查看版本說明](https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.0) · [所有版本](https://github.com/JaxHao/CDG-Downloads/releases)
+[查看版本說明](https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.1) · [所有版本](https://github.com/JaxHao/CDG-Downloads/releases)
 
 | 項目 | 內容 |
 | --- | --- |
-| 目前版本 | 0.1.0（版本代碼 1） |
+| 目前版本 | 0.1.1（版本代碼 2） |
 | 發布日期 | 2026-10-03 |
 | 檔案大小 | 約 165 MB |
 | 系統 | Android 7.0 以上 |
@@ -39,7 +39,7 @@ APK 已正式簽章，連接 CDG 正式遊戲服務。Android 實機安裝與完
 
 SHA-256（CDG.apk）：
 ```text
-c45679017768a99ea9ec5fc6a6927c5f104f5022b572d615d1fea92a9787c2b6
+5c15fdcb43b72e3138c556beaef88544801f03405fdd49da12ff85b81f495ae2
 ```
 
 本程式庫僅提供安裝檔與說明，遊戲原始碼不公開。
