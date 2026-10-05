@@ -2,19 +2,19 @@
 
 Android 官方測試版下載專頁。遊玩需要網路，目前為測試版本。
 
-本版調整手機畫面與圖片記憶體占用，修正戰鬥數字及敵人技能演出，並統一家園互動動畫。餵食與清潔會在演出結束後更新舒適度。
+本版降低圖片與載入的記憶體高峰，改善領獎、功能切換與首次登入操作，加入未取得夥伴的技能及羽毛預覽。
 
 ## 下載
 
-**[下載 Android APK](https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.5/CDG.apk)**
+**[下載 Android APK](https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.6/CDG.apk)**
 
-[查看版本說明](https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.5) · [所有版本](https://github.com/JaxHao/CDG-Downloads/releases)
+[查看版本說明](https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.6) · [所有版本](https://github.com/JaxHao/CDG-Downloads/releases)
 
 | 項目 | 內容 |
 | --- | --- |
-| 目前版本 | 0.1.5（版本代碼 6） |
-| 發布日期 | 2026-10-04 |
-| 檔案大小 | 約 140 MB |
+| 目前版本 | 0.1.6（版本代碼 7） |
+| 發布日期 | 2026-10-05 |
+| 檔案大小 | 約 134 MB |
 | 系統 | Android 7.0 以上 |
 | 架構 | ARM64／x86_64 |
 
@@ -41,7 +41,7 @@ APK 已正式簽章，連接 CDG 正式遊戲服務。Android 實機安裝與完
 
 SHA-256（CDG.apk）：
 ```text
-acbfb9c32e67f24b712f333bf5594f12d742b4f371d117c091ad151046cc9403
+9e47a1c9f0e2b1ea359d7b93ad7e24fc2947519021a36382702dfab48cafbcb7
 ```
 
 本程式庫僅提供安裝檔與說明，遊戲原始碼不公開。
