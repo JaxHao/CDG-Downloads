@@ -2,19 +2,19 @@
 
 Android 官方測試版下載專頁。遊玩需要網路，目前為測試版本。
 
-本版降低圖片與載入的記憶體高峰，改善領獎、功能切換與首次登入操作，加入未取得夥伴的技能及羽毛預覽。
+本版加入全畫面與安全區適配、快捷鍵及音訊設定，改善觸控、背景連線恢復、家園與功能頁切換；劇情及共用呈現內容改用內建備援與版本差量更新。
 
 ## 下載
 
-**[下載 Android APK](https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.6/CDG.apk)**
+**[下載 Android APK](https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.7/CDG.apk)**
 
-[查看版本說明](https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.6) · [所有版本](https://github.com/JaxHao/CDG-Downloads/releases)
+[查看版本說明](https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.7) · [所有版本](https://github.com/JaxHao/CDG-Downloads/releases)
 
 | 項目 | 內容 |
 | --- | --- |
-| 目前版本 | 0.1.6（版本代碼 7） |
-| 發布日期 | 2026-10-05 |
-| 檔案大小 | 約 134 MB |
+| 目前版本 | 0.1.7（版本代碼 8） |
+| 發布日期 | 2026-10-09 |
+| 檔案大小 | 約 131 MB |
 | 系統 | Android 7.0 以上 |
 | 架構 | ARM64／x86_64 |
 
@@ -31,7 +31,7 @@ APK 已正式簽章，連接 CDG 正式遊戲服務。Android 實機安裝與完
 
 ## 更新
 
-正式服務最低版本為 0.1.3。請回到本頁取得新版，可使用原正式簽章直接覆蓋安裝，無須先移除遊戲。
+正式服務最低版本為 0.1.7。請回到本頁取得新版，可使用原正式簽章直接覆蓋安裝，無須先移除遊戲。
 
 ## 問題回報
 
@@ -41,7 +41,7 @@ APK 已正式簽章，連接 CDG 正式遊戲服務。Android 實機安裝與完
 
 SHA-256（CDG.apk）：
 ```text
-9e47a1c9f0e2b1ea359d7b93ad7e24fc2947519021a36382702dfab48cafbcb7
+0f311f217370b725603247a2d767f8d7c02686a4d05bc1f86ca81dfdad086a5c
 ```
 
 本程式庫僅提供安裝檔與說明，遊戲原始碼不公開。
