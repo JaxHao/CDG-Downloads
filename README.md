@@ -1,21 +1,17 @@
-# 雞鴨鵝 CDG｜Android 測試版
+# 雞鴨鵝 CDG｜Android 開發測試版
 
-目前版本：0.1.8（版本代碼 9），發布日期：2026-10-11。
+目前版本：0.1.9（版本代碼10），發布日期：2026-10-17。
 
-[下載 CDG.apk](https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.8/CDG.apk) ｜ [版本說明](https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.8)
+[下載 CDG.apk](https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.9/CDG.apk) ｜ [版本說明](https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.9)
 
-本版加入逐次戰鬥演出、抽獎券及會員資格與領獎介面，改善獎勵通知、布局與卡池資訊；同步正式 API、重播服務與管理後台。會員正式付款尚未接入。
+第一部九章、十二名夥伴、八級探索與月挑戰已接入，更新角色、敵人、背景、音樂及技能演出。常駐池60抽保底，隊伍記住上次進場使用的編成。
 
-最低版本為 0.1.8；新版戰鬥規則及目錄需要此版本。沿用正式簽章，可覆蓋安裝既有正式版。
+最低版本0.1.9，沿用正式簽章，可覆蓋安裝。仍處開發測試階段，完整手機驗收、正式付款與條款尚未完成。
 
-支援 ARM64／x86_64，Android 7.0 以上；安裝包約 133 MB。新包實機與長時間穩定性仍待測試。
-
-套件名稱：org.cdg.game。只需要網際網路權限。
-
-若下載中斷或安裝失敗，請重新完整下載；檔案大小相同不保證內容相同，可比對 SHA-256。
+支援ARM64／x86_64、Android 7.0以上，安裝包約181 MB；套件org.cdg.game，僅網際網路權限。
 
 SHA-256：
 
 ```
-ef8ba6eb7bcf3e4cb4506001eaf742c8a40e2e23d04adfe74f7d3fe976bd9317
+5d72151049d6c685ad2acf00203ce02fa542a56339eca618690d43981adcf3af
 ```
