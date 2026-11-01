@@ -1,0 +1,7 @@
+{
+  "version": "0.1.12",
+  "android": "https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.12/CDG.apk",
+  "windows": "https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.12/CDG-Windows-0.1.12-portable-data.zip",
+  "release": "https://github.com/JaxHao/CDG-Downloads/releases/tag/v0.1.12",
+  "checksums": "https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.12/SHA256SUMS.txt"
+}

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8e8">
+  <title>雞鴨鵝｜給生活添一點冒險</title>
+  <meta name="description" content="結合拉霸戰鬥、夥伴養成與家園生活的休閒冒險遊戲。認識雞鴨鵝，閱讀作者初衷，下載 Android、Windows 刪檔 Beta 測試版。">
+  <meta property="og:title" content="雞鴨鵝｜小小夥伴，大大冒險">
+  <meta property="og:description" content="帶著夥伴踏上旅途，冒險之後回到家園。一起慢慢玩，慢慢長大。Android／Windows 刪檔 Beta 開放測試。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jaxhao.github.io/CDG-Downloads/">
+  <meta property="og:image" content="https://jaxhao.github.io/CDG-Downloads/images/01-cover.webp">
+  <meta property="og:locale" content="zh_TW">
+  <link rel="canonical" href="https://jaxhao.github.io/CDG-Downloads/">
+  <link rel="icon" href="images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="site-header wrap">
+    <a class="brand" href="#" aria-label="雞鴨鵝首頁"><img src="images/logo.webp" width="180" height="90" alt="雞鴨鵝"></a>
+    <nav aria-label="主要導覽">
+      <a href="#look">遊戲一瞥</a><a href="#story">作者的話</a><a class="nav-download" href="#download">下載遊戲</a>
+    </nav>
+  </header>
+  <main id="main">
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="seed" aria-hidden="true"></span> 給生活添一點冒險</p>
+        <h1 id="hero-title">小小夥伴，<br><span>大大冒險。</span></h1>
+        <p class="lead">和雞鴨鵝一起，把每一次旋轉<br class="desktop-break">變成新的冒險。</p>
+        <p class="hero-description">拉霸戰鬥、夥伴養成，還有一個可以回去的家。<br class="desktop-break">在生活的空檔，陪這群小傢伙玩上一會。</p>
+        <a class="button primary" href="#download">一起出發</a>
+        <p class="hero-note">Android · Windows<span>刪檔 Beta 測試中</span></p>
+      </div>
+      <div class="hero-scene">
+        <div class="scene-sun" aria-hidden="true"></div>
+        <img class="hero-birds" src="images/trio.webp" width="900" height="600" alt="樂樂、起司與霍華，帶著樹枝、麵包和葉子，一起踏上旅途" fetchpriority="high">
+        <p class="scene-caption">今天，也一起走一小段吧。</p>
+      </div>
+    </section>
+
+    <section id="look" class="gallery-section" aria-labelledby="look-title">
+      <div class="wrap">
+        <div class="section-heading">
+          <div><p class="eyebrow">轉一轉，逛一逛</p><h2 id="look-title">這裡有什麼好玩的？</h2></div>
+          <div class="gallery-controls" aria-label="圖片集控制">
+            <button class="round-button" id="gallery-prev" aria-label="上一張圖片" aria-controls="gallery">←</button>
+            <button class="round-button" id="gallery-next" aria-label="下一張圖片" aria-controls="gallery">→</button>
+          </div>
+        </div>
+        <p class="section-intro">從一場冒險，到家園裡的小日常。左右滑動，先逛一圈。</p>
+        <div id="gallery" class="gallery" tabindex="0" role="region" aria-roledescription="圖片集" aria-label="五張遊戲介紹圖片，可左右滑動或使用方向鍵">
+          <figure><img src="images/01-cover.webp" width="1080" height="1920" alt="小小夥伴，大大冒險：雞鴨鵝與同行的三位夥伴" loading="lazy"><figcaption>01 ／ 一起出發</figcaption></figure>
+          <figure><img src="images/02-battle.webp" width="1080" height="1920" alt="轉出好招，煩惱拋掉：拉霸戰鬥與夥伴技能畫面" loading="lazy"><figcaption>02 ／ 拉霸戰鬥</figcaption></figure>
+          <figure><img src="images/03-home.webp" width="1080" height="1920" alt="餵食打掃，有你真好：在家園照顧夥伴並解鎖生活時裝" loading="lazy"><figcaption>03 ／ 家園生活</figcaption></figure>
+          <figure><img src="images/04-lottery.webp" width="1080" height="1920" alt="獎券片片，驚喜連連：轉動抽獎機收集獎券，兌換夥伴" loading="lazy"><figcaption>04 ／ 試試手氣</figcaption></figure>
+          <figure><img src="images/05-friends.webp" width="1080" height="1920" alt="小鳥報到，好友接招：派送小鳥，替好友添點熱鬧" loading="lazy"><figcaption>05 ／ 好友派送</figcaption></figure>
+        </div>
+        <p id="gallery-status" class="gallery-status" aria-live="polite" aria-atomic="true">目前瀏覽第 1 張，共 5 張</p>
+      </div>
+    </section>
+
+    <section class="features wrap" aria-label="玩法介紹">
+      <article><span class="feature-number">01</span><h3>轉動輪軸，迎接挑戰</h3><p>攻擊、防禦、回復與鳥圖示，組成每一回合的戰鬥。搭配夥伴技能轉換圖示、調整盤面，把握連線與獎勵機帶來的機會。</p></article>
+      <article><span class="feature-number">02</span><h3>找到喜歡的夥伴</h3><p>每位雞、鴨、鵝夥伴都有自己的個性與技能。安排主戰與支援，培養技能、搭配羽毛，慢慢組成適合自己的隊伍。</p></article>
+      <article><span class="feature-number">03</span><h3>留一點時間給家園</h3><p>換上喜歡的背景，餵食、照顧，和夥伴互動。冒險之外，也有屬於這群小傢伙的日常。</p></article>
+    </section>
+
+    <section class="journey wrap" aria-labelledby="journey-title">
+      <p class="eyebrow">不只是一場戰鬥</p><h2 id="journey-title">跟著故事，一起往前走。</h2>
+      <p>和樂樂、起司、霍華一起出發，在路途中認識新的朋友，也遇上各種麻煩。看看他們聊些什麼、又會把事情弄成什麼樣子。</p>
+      <p>想試試手氣時，也能投入遊戲中獲得的金幣，轉動抽獎機、收集獎券，再到商店兌換夥伴。巨大鳥挑戰和彩色羽毛連線，也等著你遇見。</p>
+    </section>
+
+    <section id="story" class="author-section" aria-labelledby="author-title">
+      <div class="author-layout wrap">
+        <div class="author-heading"><p class="eyebrow">開發者的一點心裡話</p><h2 id="author-title">像一盆植物，<br>慢慢長大。</h2><p>為什麼想做《雞鴨鵝》</p><span class="author-flower" aria-hidden="true">✿</span></div>
+        <div class="author-copy">
+          <p>我是一名利用閒暇時間開發遊戲的上班族。最初，只是想找一款能在通勤的零碎時間裡，輕鬆玩上一會的遊戲。</p>
+          <p>但試了不少遊戲，迎面而來的往往是廣告、禮包、滿畫面的活動和紅點。玩著玩著像在交作業，抽卡彷彿得挑個良辰吉日，好不容易培養的角色，又很快被新角色取代。有些內容還得配合特定時間才能參與。原本只是想放鬆，最後卻常常點了幾下，就感到疲倦。</p>
+          <p>隨著近年 AI 工具快速發展，加上自己略懂一些程式設計，我決定試著把心中想玩的遊戲做出來，於是有了《雞鴨鵝》。</p>
+          <p class="author-highlight">我希望它是一款低壓力的休閒遊戲，像家裡的一盆植物：偶爾澆澆水，慢慢看著它成長，也能感受到一點陪伴。遊戲只需要替生活添些色彩，不必占滿生活，更不該成為另一份工作。</p>
+          <p>因此，在設計上，我會盡可能讓每位夥伴保有自己的特色與用途，讓你能安心培養喜歡的雞、鴨、鵝。付費內容也只規劃會員提供的部分資源與裝飾；體力則提供免費保留的方式，希望大家都能依照自己的生活步調遊玩。</p>
+          <p>這是我在工作之餘，一步一步摸索製作的遊戲，還有許多需要改進的地方。謝謝你讀完這段閒話家常。如果你也喜歡《雞鴨鵝》，歡迎留下建議，或回報遊玩時遇到的問題，幫助它慢慢變得更好。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="download-section wrap" aria-labelledby="download-title">
+      <p class="eyebrow">留一點空檔，來玩一會</p><h2 id="download-title">準備好，一起出發了嗎？</h2>
+      <p class="download-lead">《雞鴨鵝》刪檔 Beta 測試版 <span id="version">0.1.12</span></p>
+      <div class="download-grid">
+        <article class="download-card android"><p class="platform">Android</p><h3>把冒險帶著走</h3><p>Android 7.0 以上<br>下載 APK 後依裝置提示安裝。</p><a class="button primary" data-download="android" href="https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.12/CDG.apk">下載 Android APK</a></article>
+        <article class="download-card windows"><p class="platform">Windows</p><h3>坐下來，慢慢玩</h3><p>Windows 10／11 x64<br>完整解壓縮後，開啟最外層的 CDG.exe。更新時保留 Data 資料夾。</p><a class="button secondary" data-download="windows" href="https://github.com/JaxHao/CDG-Downloads/releases">下載 Windows 免安裝包</a></article>
+      </div>
+      <div class="beta-note"><h3>遊玩前，請先留意</h3><p>目前為<strong>刪檔 Beta 測試</strong>，主要用於驗證玩法與收集玩家回饋。測試資料日後會清除，請勿將測試期間的資產與進度視為永久保留。</p><p>歡迎告訴我們哪些地方有趣、哪些地方不順手。遇到問題時，可使用遊戲內的回報功能，附上發生情況與重現步驟。</p></div>
+      <div class="download-meta"><a data-download="release" href="https://github.com/JaxHao/CDG-Downloads/releases">版本說明</a><span aria-hidden="true">／</span><a data-download="checksums" href="https://github.com/JaxHao/CDG-Downloads/releases/download/v0.1.12/SHA256SUMS.txt">SHA-256 校驗檔</a></div>
+    </section>
+  </main>
+  <footer class="site-footer wrap"><a href="#" aria-label="回到頂端">雞鴨鵝</a><p>偶爾來看看，一起慢慢長大。</p><a href="https://github.com/JaxHao/CDG-Downloads">GitHub 下載庫</a></footer>
+</body>
+</html>
